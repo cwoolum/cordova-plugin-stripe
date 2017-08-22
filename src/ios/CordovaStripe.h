@@ -1,5 +1,5 @@
 #import <Cordova/CDV.h>
-@import Stripe;
+#import <Stripe/Stripe.h>
 
 @interface CordovaStripe : CDVPlugin
 @property (nonatomic, retain) STPAPIClient *client;
